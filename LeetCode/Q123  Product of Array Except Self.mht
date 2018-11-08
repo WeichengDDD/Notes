@@ -1,0 +1,158 @@
+From: WizMime<support@wiz.cn>
+Subject: =?gb2312?B?UTEyMyAgUHJvZHVjdCBvZiBBcnJheSBFeGNlcHQgU2VsZg==?=
+Date: Date: Thu, 8 Nov 2018 22:57:11 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_Next_Part_0520162638.662"
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0520162638.662
+Content-Type: multipart/alternative;
+	boundary="----=_Next_Part_0173387546.757"
+
+
+------=_Next_Part_0173387546.757
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0173387546.757
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+gb2312"><title>Q123  Product of Array Except Self</title><xml ver=
+sion=3D"1.0" encoding=3D"UTF-8">=0A<!doctype en-note system http:=
+xml.evernote.compubenml2.dtd>=0A=0A<div><div style=3D"box-sizing:=
+ border-box; padding: 20px; border-radius: 15px; background: whit=
+e;"><div style=3D"box-sizing: border-box;"><div style=3D"box-sizi=
+ng: border-box;"><div style=3D"box-sizing: border-box; margin: 0p=
+x 0px 10px;"><span style=3D"box-sizing: border-box; line-height:=20=
+24px;">=B8=F8=B6=A8=B3=A4=B6=C8=CE=AA&nbsp;</span><span style=3D"=
+box-sizing: border-box; font-style: italic; line-height: 24px;">n=
+</span><span style=3D"box-sizing: border-box; line-height: 24px;"=
+>&nbsp;=B5=C4=D5=FB=CA=FD=CA=FD=D7=E9&nbsp;</span><span style=3D"=
+box-sizing: border-box; font-size: 12.6px; background-color: rgb(=
+249, 242, 244); border-radius: 4px; color: rgb(199, 37, 78); font=
+-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monosp=
+ace; line-height: 24px;">nums</span><span style=3D"box-sizing: bo=
+rder-box; line-height: 24px;">=A3=AC=C6=E4=D6=D0&nbsp;</span><spa=
+n style=3D"box-sizing: border-box; font-style: italic; line-heigh=
+t: 24px;">n</span><span style=3D"box-sizing: border-box; line-hei=
+ght: 24px;">&nbsp;</span><span style=3D"box-sizing: border-box; l=
+ine-height: 24px;">&gt; 1=A3=AC=B7=B5=BB=D8=CA=E4=B3=F6=CA=FD=D7=E9=
+&nbsp;</span><span style=3D"box-sizing: border-box; font-size: 12=
+.6px; background-color: rgb(249, 242, 244); border-radius: 4px; c=
+olor: rgb(199, 37, 78); font-family: Menlo, Monaco, Consolas, &qu=
+ot;Courier New&quot;, monospace; line-height: 24px;">output</span=
+><span style=3D"box-sizing: border-box; line-height: 24px;">&nbsp=
+;=A3=AC=C6=E4=D6=D0</span><span style=3D"box-sizing: border-box;=20=
+line-height: 24px;">&nbsp;</span><span style=3D"box-sizing: borde=
+r-box; font-size: 12.6px; background-color: rgb(249, 242, 244); b=
+order-radius: 4px; color: rgb(199, 37, 78); font-family: Menlo, M=
+onaco, Consolas, &quot;Courier New&quot;, monospace; line-height:=
+ 24px;">output[i]</span><span style=3D"box-sizing: border-box; li=
+ne-height: 24px;">&nbsp;=B5=C8=D3=DA&nbsp;</span><span style=3D"b=
+ox-sizing: border-box; font-size: 12.6px; background-color: rgb(2=
+49, 242, 244); border-radius: 4px; color: rgb(199, 37, 78); font-=
+family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospa=
+ce; line-height: 24px;">nums</span><span style=3D"box-sizing: bor=
+der-box; line-height: 24px;">&nbsp;=D6=D0=B3=FD&nbsp;</span><span=
+ style=3D"box-sizing: border-box; font-size: 12.6px; background-c=
+olor: rgb(249, 242, 244); border-radius: 4px; color: rgb(199, 37,=
+ 78); font-family: Menlo, Monaco, Consolas, &quot;Courier New&quo=
+t;, monospace; line-height: 24px;">nums[i]</span><span style=3D"b=
+ox-sizing: border-box; line-height: 24px;">&nbsp;=D6=AE=CD=E2=C6=E4=
+=D3=E0=B8=F7=D4=AA=CB=D8=B5=C4=B3=CB=BB=FD=A1=A3</span></div><div=
+ style=3D"box-sizing: border-box; margin: 0px 0px 10px;"><span st=
+yle=3D"box-sizing: border-box; font-weight: bold; line-height: 24=
+px;">=CA=BE=C0=FD:</span></div><div style=3D"box-sizing: border-b=
+ox; overflow: auto; font-size: 13px; padding: 9.5px; margin: 0px=20=
+0px 10px; word-break: break-all; word-wrap: break-word; backgroun=
+d-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204)=
+; border-radius: 4px;"><span style=3D"box-sizing: border-box; ove=
+rflow: auto; font-size: 13px; word-break: break-all; word-wrap: b=
+reak-word; background-color: rgb(245, 245, 245); border: 1px soli=
+d rgb(204, 204, 204); border-radius: 4px; color: rgb(51, 51, 51);=
+ font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, m=
+onospace; font-weight: bold; line-height: 1.42857;">=CA=E4=C8=EB:=
+</span> <span style=3D"box-sizing: border-box; overflow: auto; fo=
+nt-size: 13px; word-break: break-all; word-wrap: normal; backgrou=
+nd-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204=
+); border-radius: 0px; white-space: pre; color: rgb(51, 51, 51);=20=
+font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, mo=
+nospace; line-height: 1.42857;">[1,2,3,4]</span><span style=3D"bo=
+x-sizing: border-box; overflow: auto; font-size: 13px; word-break=
+: break-all; word-wrap: break-word; background-color: rgb(245, 24=
+5, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px=
+; color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &=
+quot;Courier New&quot;, monospace; font-weight: bold; line-height=
+: 1.42857;">=CA=E4=B3=F6:</span> <span style=3D"box-sizing: borde=
+r-box; overflow: auto; font-size: 13px; word-break: break-all; wo=
+rd-wrap: normal; background-color: rgb(245, 245, 245); border: 1p=
+x solid rgb(204, 204, 204); border-radius: 0px; white-space: pre;=
+ color: rgb(51, 51, 51); font-family: Menlo, Monaco, Consolas, &q=
+uot;Courier New&quot;, monospace; line-height: 1.42857;">[24,12,8=
+,6]</span></div><div style=3D"box-sizing: border-box; margin: 0px=
+ 0px 10px;"><span style=3D"box-sizing: border-box; font-weight: b=
+old; line-height: 24px;">=CB=B5=C3=F7:</span><span style=3D"box-s=
+izing: border-box; font-weight: bold; line-height: 24px;">&nbsp;<=
+/span><span style=3D"box-sizing: border-box; line-height: 24px;">=
+=C7=EB</span><span style=3D"box-sizing: border-box; font-weight:=20=
+bold; line-height: 24px;">=B2=BB=D2=AA=CA=B9=D3=C3=B3=FD=B7=A8=A3=
+=AC</span><span style=3D"box-sizing: border-box; line-height: 24p=
+x;">=C7=D2=D4=DA&nbsp;O(</span><span style=3D"box-sizing: border-=
+box; font-style: italic; line-height: 24px;">n</span><span style=3D=
+"box-sizing: border-box; line-height: 24px;">) =CA=B1=BC=E4=B8=B4=
+=D4=D3=B6=C8=C4=DA=CD=EA=B3=C9=B4=CB=CC=E2=A1=A3</span></div><p s=
+tyle=3D"box-sizing: border-box; margin: 0px 0px 10px;" /><div><sp=
+an style=3D"box-sizing: border-box; font-weight: bold; line-heigh=
+t: 24px;">=BD=F8=BD=D7=A3=BA</span></div><div style=3D"margin-top=
+: 1em; margin-bottom: 1em;"><span style=3D"line-height: 24px;-en-=
+paragraph:true;">=C4=E3=BF=C9=D2=D4=D4=DA=B3=A3=CA=FD=BF=D5=BC=E4=
+=B8=B4=D4=D3=B6=C8=C4=DA=CD=EA=B3=C9=D5=E2=B8=F6=CC=E2=C4=BF=C2=F0=
+=A3=BF=A3=A8 =B3=F6=D3=DA=B6=D4=BF=D5=BC=E4=B8=B4=D4=D3=B6=C8=B7=D6=
+=CE=F6=B5=C4=C4=BF=B5=C4=A3=AC=CA=E4=B3=F6=CA=FD=D7=E9</span><spa=
+n style=3D"box-sizing: border-box; font-weight: bold; line-height=
+: 24px;-en-paragraph:true;">=B2=BB=B1=BB=CA=D3=CE=AA</span><span=20=
+style=3D"line-height: 24px;-en-paragraph:true;">=B6=EE=CD=E2=BF=D5=
+=BC=E4=A1=A3=A3=A9</span></div></div></div></div><div style=3D"bo=
+x-sizing: border-box; outline: 0px;"><div style=3D"box-sizing: bo=
+rder-box;"><br /></div><div style=3D"box-sizing: border-box;"><br=
+ /></div></div><div>Ans.1:</div><div>class Solution {</div><div>&=
+nbsp;&nbsp;&nbsp;&nbsp;public int[] productExceptSelf(int[] nums)=
+ {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int[=
+] result =3D new int[nums.length];</div><div>&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;int[] rightArray =3D new int[nums.len=
+gth];</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i=
+nt[] leftArray =3D new int[nums.length];</div><div>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div>&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;rightArray[0] =3D 1;</div><div>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;leftArray[nums.length -=
+ 1] =3D 1;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fo=
+r (int i =3D 0; i &lt; nums.length - 1; i++) {</div><div>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r=
+ightArray[i + 1] =3D rightArray[i] * nums[i];</div><div>&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;le=
+ftArray[nums.length - i - 2] =3D leftArray[nums.length - 1 - i] *=
+ nums[nums.length - 1 - i];</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;}</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;for (int i =3D 0; i &lt; nums.length; i++) {</div><div>=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;result[i] =3D rightArray[i] * leftArray[i];</div><div>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div><div>&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div>&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return result;</div><div>&nbsp;&=
+nbsp;&nbsp;&nbsp;}</div><div>}</div></div>
+
+------=_Next_Part_0173387546.757--
+
+------=_Next_Part_0520162638.662--
+

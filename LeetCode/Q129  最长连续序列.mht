@@ -1,0 +1,106 @@
+From: WizMime<support@wiz.cn>
+Subject: =?gb2312?B?UTEyOSAg1+6zpMGs0PjQ8sHQ?=
+Date: Date: Thu, 8 Nov 2018 22:57:11 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="multipart/alternative";
+	boundary="----=_Next_Part_0520163343.942"
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0520163343.942
+Content-Type: multipart/alternative;
+	boundary="----=_Next_Part_0173387781.264"
+
+
+------=_Next_Part_0173387781.264
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+This is a multi-part message in MIME format.
+
+------=_Next_Part_0173387781.264
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+gb2312"><title>Q129  =D7=EE=B3=A4=C1=AC=D0=F8=D0=F2=C1=D0</title>=
+<xml version=3D"1.0" encoding=3D"UTF-8">=0A<!doctype en-note syst=
+em http:xml.evernote.compubenml2.dtd>=0A=0A<div><div style=3D"box=
+-sizing: border-box; padding: 20px; border-radius: 15px; backgrou=
+nd: white;"><div style=3D"box-sizing: border-box; line-height: 24=
+px;"><div style=3D"box-sizing: border-box;"><p style=3D"box-sizin=
+g: border-box; margin: 0px 0px 10px;" /><div><br /></div><div sty=
+le=3D"margin-top: 1em; margin-bottom: 1em;"><span style=3D"-en-pa=
+ragraph:true;">=B8=F8=B6=A8=D2=BB=B8=F6=CE=B4=C5=C5=D0=F2=B5=C4=D5=
+=FB=CA=FD=CA=FD=D7=E9=A3=AC=D5=D2=B3=F6=D7=EE=B3=A4=C1=AC=D0=F8=D0=
+=F2=C1=D0=B5=C4=B3=A4=B6=C8=A1=A3</span></div><div style=3D"box-s=
+izing: border-box; margin: 0px 0px 10px;"><span style=3D"box-sizi=
+ng: border-box;">=D2=AA=C7=F3=CB=E3=B7=A8=B5=C4=CA=B1=BC=E4=B8=B4=
+=D4=D3=B6=C8=CE=AA&nbsp;</span><span style=3D"box-sizing: border-=
+box; font-style: italic;">O(n)</span><span style=3D"box-sizing: b=
+order-box;">=A1=A3</span></div><div style=3D"box-sizing: border-b=
+ox; margin: 0px 0px 10px;"><span style=3D"box-sizing: border-box;=
+ font-weight: bold;">=CA=BE=C0=FD:</span></div><div style=3D"box-=
+sizing: border-box; overflow: auto; font-family: Menlo, Monaco, C=
+onsolas, &quot;Courier New&quot;, monospace; font-size: 13px; pad=
+ding: 9.5px; margin: 0px 0px 10px; line-height: 1.42857; color: r=
+gb(51, 51, 51); word-break: break-all; overflow-wrap: break-word;=
+ background-color: rgb(245, 245, 245); border: 1px solid rgb(204,=
+ 204, 204); border-radius: 4px;"><div><span style=3D"font-weight:=
+ bold; box-sizing: border-box;">=CA=E4=C8=EB:</span> [100, 4, 200=
+, 1, 3, 2]</div><div><span style=3D"font-weight: bold; box-sizing=
+: border-box;">=CA=E4=B3=F6:</span> 4</div><div><span style=3D"fo=
+nt-weight: bold; box-sizing: border-box;">=BD=E2=CA=CD:</span> =D7=
+=EE=B3=A4=C1=AC=D0=F8=D0=F2=C1=D0=CA=C7 <span style=3D"box-sizing=
+: border-box; font-family: Menlo, Monaco, Consolas, &quot;Courier=
+ New&quot;, monospace; border-radius: 0px; white-space: pre; over=
+flow-wrap: normal;">[1, 2, 3, 4]=A1=A3=CB=FC=B5=C4=B3=A4=B6=C8=CE=
+=AA 4=A1=A3</span></div></div></div></div></div><div style=3D"box=
+-sizing: border-box; outline: 0px;"><div style=3D"box-sizing: bor=
+der-box;"><div style=3D"box-sizing: border-box;"><hr style=3D"box=
+-sizing: content-box; height: 0px; margin: 0px; border-width: 1px=
+ 0px 0px; border-right-style: initial; border-bottom-style: initi=
+al; border-left-style: initial; border-right-color: initial; bord=
+er-bottom-color: initial; border-left-color: initial; border-imag=
+e: initial; border-top-style: solid; border-top-color: rgb(238, 2=
+38, 238); border-radius: 0px; padding: 0px;" /></div></div></div>=
+<div><br /></div><div><br /></div><div>Ans.1:</div><div>class Sol=
+ution {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;public int longestConse=
+cutive(int[] nums) {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;if (nums =3D=3D null || nums.length =3D=3D 0) {</di=
+v><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;return 0;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;}</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;Arrays.sort(nums);</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;int maxLength =3D 1;</div><div>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int length =3D 1;</div><div>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (int i =3D 1; i &l=
+t; nums.length; i++) {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (nums[i] =3D=3D nums[i=
+ - 1]) {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue;</div>=
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;} else if (nums[i] =3D=3D nums[i - 1] + 1) {</div><di=
+v>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length++;</div><div>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} els=
+e {</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxLength =3D maxLen=
+gth &gt;=3D length ? maxLength : length;</div><div>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;length =3D 1;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div><div>&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div><div>&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div><div>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return maxLength &gt;=3D length ?=
+ maxLength : length;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;}</div><di=
+v>}</div></div>
+
+------=_Next_Part_0173387781.264--
+
+------=_Next_Part_0520163343.942--
+
