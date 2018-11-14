@@ -141,6 +141,15 @@
 
 #### 答案
 
+遵循格式：
+
+* 关键字大写
+* 字段以``标注
+* 别名AS关键字不省略
+* 不使用右联
+
+
+
 1. 查询" 01 "课程比" 02 "课程成绩高的学生的信息及课程分数
 
    ```
@@ -195,7 +204,7 @@
 
 7. 查询所有同学的学生编号、学生姓名、选课总数、所有课程的总成绩(没成绩的显示为 null )
 
-   ```
+   ```mysql
     SELECT
        s.*,
        sc1.course,
@@ -217,7 +226,7 @@
 
 8. 查有成绩的学生信息
 
-   ```
+   ```mysql
     SELECT
     s.*,
     sc1.course,
@@ -242,13 +251,13 @@
 
 9. 查询「李」姓老师的数量
 
-   ```
+   ```mysql
    SELECT COUNT(t.Tname) FROM teacher t WHERE t.Tname LIKE '李% 
    ```
 
 10. 查询学过「张三」老师授课的同学的信息
 
-    ```
+    ```mysql
      SELECT student.*
     FROM (
          SELECT
@@ -282,7 +291,7 @@
 
 11. 查询没有学全所有课程的同学的信息
 
-    ```
+    ```mysql
          SELECT student.*
         FROM student
         WHERE student.SId
@@ -320,7 +329,7 @@
 
 14. 查询没学过"张三"老师讲授的任一门课程的学生姓名
 
-    ```
+    ```mysql
      SELECT s.*
         FROM student s
         WHERE s.SId NOT IN (
@@ -340,7 +349,7 @@
 
 15. 查询两门及其以上不及格课程的同学的学号，姓名及其平均成绩
 
-    ```
+    ```mysql
       SELECT s.*
           FROM
            student s,
@@ -365,7 +374,7 @@
 
 16. 检索" 01 "课程分数小于 60，按分数降序排列的学生信息
 
-    ```
+    ```mysql
        SELECT s.*, sc.score
         FROM student s, sc
         WHERE
@@ -378,7 +387,7 @@
 
 17. 按平均成绩从高到低显示所有学生的所有课程的成绩以及平均成绩
 
-    ```
+    ```mysql
          SELECT *
         FROM sc LEFT JOIN
              (
@@ -392,7 +401,7 @@
 
 18. 查询各科成绩最高分、最低分和平均分：以如下形式显示：课程 ID，课程 name，最高分，最低分，平均分，及格率，中等率，优良率，优秀率，及格为>=60，中等为：70-80，优良为：80-90，优秀为：>=90
 
-    ```
+    ```mysql
       SELECT
                sc.CId,
                COUNT(sc.SId) AS `account`,
@@ -410,13 +419,13 @@
 
 19. 要求输出课程号和选修人数，查询结果按人数降序排列，若人数相同，按课程号升序排列
 
-    ```
+    ```mysql
      
     ```
 
 20. 按各科成绩进行排序，并显示排名， Score 重复时保留名次空缺
 
-    ```
+    ```mysql
        set @crank=0;
      
         SELECT (@crank := @crank + 1) AS crank, t.SId
@@ -430,25 +439,25 @@
 
 21. 按各科成绩进行排序，并显示排名， Score 重复时合并名次
 
-    ```
+    ```mysql
      
     ```
 
 22. 查询学生的总成绩，并进行排名，总分重复时保留名次空缺
 
-    ```
+    ```mysql
      
     ```
 
 23. 查询学生的总成绩，并进行排名，总分重复时不保留名次空缺
 
-    ```
+    ```mysql
      
     ```
 
 24. 统计各科成绩各分数段人数：课程编号，课程名称，[100-85]，[85-70]，[70-60]，[60-0] 及所占百分比
 
-    ```
+    ```mysql
          SELECT
                sc.CId,
                COUNT(IF(sc.score >= 85, TRUE , NULL )) AS `[100-85]`,
@@ -462,7 +471,7 @@
 
 25. 查询各科成绩前三名的记录
 
-    ```
+    ```mysql
          SELECT *
         FROM sc
         WHERE (
@@ -477,7 +486,7 @@
 
 26. 查询每门课程被选修的学生数
 
-    ```
+    ```mysql
      SELECT COUNT(sc.SId)
     FROM sc
     GROUP BY sc.CId
@@ -485,7 +494,7 @@
 
 27. 查询出只选修两门课程的学生学号和姓名
 
-    ```
+    ```mysql
     SELECT DISTINCT s.SId, s.Sname
     FROM student AS s, sc
     WHERE
@@ -499,7 +508,7 @@
 
 28. 查询男生、女生人数
 
-    ```
+    ```mysql
     SELECT s.Ssex,COUNT(s.SId)
     FROM student AS s
     GROUP BY s.Ssex 
@@ -507,7 +516,7 @@
 
 29. 查询名字中含有「风」字的学生信息
 
-    ```
+    ```mysql
     SELECT s.*
     FROM student AS s
     WHERE s.Sname LIKE '%风%' 
@@ -515,7 +524,7 @@
 
 30. 查询同名同性学生名单，并统计同名人数
 
-    ```
+    ```mysql
     SELECT s.Sname, COUNT(s.SId)
     FROM student AS s
     GROUP BY s.Sname
@@ -524,7 +533,7 @@
 
 31. 查询 1990 年出生的学生名单
 
-    ```
+    ```mysql
     SELECT s.SId, s.Sname
     FROM student AS s
     WHERE YEAR(s.Sage) = 1990 
@@ -532,7 +541,7 @@
 
 32. 查询每门课程的平均成绩，结果按平均成绩降序排列，平均成绩相同时，按课程编号升序排列
 
-    ```
+    ```mysql
     SELECT sc.CId, AVG(sc.score) AS `avg`
     FROM sc
     GROUP BY sc.CId
@@ -541,7 +550,7 @@
 
 33. 查询平均成绩大于等于 85 的所有学生的学号、姓名和平均成绩
 
-    ```
+    ```mysql
     SELECT t.*, s.Sname
     FROM
          (
@@ -555,7 +564,7 @@
 
 34. 查询课程名称为「数学」，且分数低于 60 的学生姓名和分数
 
-    ```
+    ```mysql
     SELECT s.Sname, sc.score
     FROM student AS s, sc, course AS c
     WHERE
@@ -567,7 +576,7 @@
 
 35. 查询所有学生的课程及分数情况（存在学生没成绩，没选课的情况）
 
-    ```
+    ```mysql
     SELECT s.SId, s.Sname, sc.CId, c.Cname, sc.score
     FROM
          student AS s LEFT JOIN sc ON s.SId = sc.SId
@@ -577,7 +586,7 @@
 
 36. 查询任何一门课程成绩在 70 分以上的姓名、课程名称和分数
 
-    ```
+    ```mysql
     SELECT sc.SId, s.Sname, c.Cname, sc.score
     FROM sc, student AS s, course AS c
     WHERE
@@ -588,7 +597,7 @@
 
 37. 查询不及格的课程
 
-    ```
+    ```mysql
     SELECT sc.SId, s.Sname, c.Cname, sc.score
     FROM sc, student AS s, course AS c
     WHERE
@@ -599,7 +608,7 @@
 
 38. 查询课程编号为 01 且课程成绩在 80 分以上的学生的学号和姓名
 
-    ```
+    ```mysql
     SELECT sc.SId, s.Sname, c.Cname, sc.score
     FROM sc, student AS s, course AS c
     WHERE
@@ -611,7 +620,7 @@
 
 39. 求每门课程的学生人数
 
-    ```
+    ```mysql
     SELECT sc.CId, COUNT(sc.SId) AS `Snum`
     FROM sc
     GROUP BY sc.CId 
@@ -619,7 +628,7 @@
 
 40. 成绩不重复，查询选修「张三」老师所授课程的学生中，成绩最高的学生信息及其成绩
 
-    ```
+    ```mysql
     SELECT s.*, sc.score
     FROM student AS s, sc, teacher AS t, course AS c
     WHERE
@@ -633,7 +642,7 @@
 
 41. 成绩有重复的情况下，查询选修「张三」老师所授课程的学生中，成绩最高的学生信息及其成绩
 
-    ```
+    ```mysql
     SELECT s.*, sc.score
     FROM student AS s,
          sc,
@@ -652,7 +661,7 @@
 
 42. 查询不同课程成绩相同的学生的学生编号、课程编号、学生成绩
 
-    ```
+    ```mysql
     SELECT *
     FROM
        sc,
@@ -668,7 +677,7 @@
 
 43. 查询每门功成绩最好的前两名
 
-    ```
+    ```mysql
     SELECT sc1.CId, sc1.SId, sc1.score
         FROM sc AS sc1
         WHERE
@@ -683,7 +692,7 @@
 
 44. 统计每门课程的学生选修人数（超过 5 人的课程才统计）
 
-    ```
+    ```mysql
     SELECT sc.CId, COUNT(sc.SId) AS `num`
     FROM sc
     GROUP BY sc.CId
@@ -692,7 +701,7 @@
 
 45. 检索至少选修两门课程的学生学号
 
-    ```
+    ```mysql
     SELECT sc.SId
     FROM sc
     GROUP BY sc.SId
@@ -701,7 +710,7 @@
 
 46. 查询选修了全部课程的学生信息
 
-    ```
+    ```mysql
     SELECT s.*
     FROM
          student AS s,
@@ -719,21 +728,21 @@
 
 47. 查询各学生的年龄，只按年份来算
 
-    ```
+    ```mysql
     SELECT s.SId, s.Sname, YEAR(CURRENT_DATE) - YEAR(s.Sage) AS age
     FROM student AS s 
     ```
 
 48. 按照出生日期来算，当前月日 < 出生年月的月日则，年龄减一
 
-    ```
+    ```mysql
      SELECT s.Sname, TIMESTAMP (YEAR, CURRENT_DATE(), s.Sage)
     FROM student AS s
     ```
 
 49. 查询本周过生日的学生
 
-    ```
+    ```mysql
     SELECT s.Sname
     FROM student AS s
     WHERE
@@ -742,7 +751,7 @@
 
 50. 查询下周过生日的学生
 
-    ```
+    ```mysql
     SELECT s.Sname
     FROM student AS s
     WHERE
@@ -751,7 +760,7 @@
 
 51. 查询本月过生日的学生
 
-    ```
+    ```mysql
     SELECT s.Sname
     FROM student AS s
     WHERE
@@ -760,7 +769,7 @@
 
 52. 查询下月过生日的学生
 
-    ```
+    ```mysql
     SELECT s.Sname
     FROM student AS s
     WHERE
