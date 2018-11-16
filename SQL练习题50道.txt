@@ -305,7 +305,7 @@
 
 12. 查询至少有一门课与学号为" 01 "的同学所学相同的同学的信息
 
-    ```
+    ```mysql
          SELECT s.*
         FROM student s
         WHERE
